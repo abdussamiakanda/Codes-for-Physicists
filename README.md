@@ -2,8 +2,7 @@
 
 ## Pages:
 
-- [01. Workflow](/Codes-for-Physicists/01)
-- [Basic exercises](/python/basic_exercises)
+- [01. Workflow](/Codes-for-Physicists/01_workflow)
 
 
 
