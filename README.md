@@ -2,7 +2,7 @@
 
 ## Pages:
 
-- [01. Workflow](/Codes-for-Physicists/01_workflow)
+- [01. Workflow](/Codes-for-Physicists/01_workflow.html)
 
 
 
