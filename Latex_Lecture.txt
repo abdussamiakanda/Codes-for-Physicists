@@ -68,7 +68,7 @@ $$\Alpha \Beta \Pi \Psi \Phi \Gamma $$
     1 & 2 & 3 \\
     3 & 4 & r
 \end{tabular}
-
+ 
 \begin{table}[h]
     \centering
     \begin{tabular}{|l|l|l|l|}
