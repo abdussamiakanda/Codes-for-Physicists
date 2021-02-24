@@ -1,0 +1,135 @@
+\documentclass[a4paper, 12 pt]{article}
+\usepackage{amsmath}
+\usepackage{amsfonts}
+\usepackage[dvipsnames]{xcolor}
+\usepackage{hyperref}
+\usepackage{graphicx}
+
+\title{My first {\LaTeX} document}
+\author{Sami}
+\date{\today}
+
+\begin{document}
+\maketitle
+\tableofcontents
+
+\newpage
+
+\section{Introduction}
+Hello, this is my first latex chapter. See Figure \ref{fig:1}.
+
+\subsection{Classical Mechanics}
+This is the classical mechanics\footnote{For details see Classical Mechanics by Goldstein.} section.
+{\fontfamily{qcr}\selectfont
+This is a different font
+}
+\url{https://www.facebook.com}
+
+\subsection{\label{Ch:ToR}Theory of Relativity}
+Here we talk about the \textcolor{red}{theory of relativity}.
+
+\section{Model}
+This is my model chapter. And we already about ToR from \ref{Ch:ToR}.
+
+\textbf{This is bold}
+
+\textit{This is italic}
+
+\textsc{This is all capital}
+
+\text{This is just text}
+
+{\huge This is Big}
+
+{\large This is Big}
+
+
+
+\begin{enumerate}
+    \item item 1 
+    \item item 2
+\end{enumerate}
+
+% This is a bullet list
+\begin{itemize}
+    \item item 1
+    \item item 2
+\end{itemize}
+
+$$\alpha \beta \pi \psi \phi \int \sum \prod \gamma $$
+
+$$\Alpha \Beta \Pi \Psi \Phi \Gamma $$
+
+\newpage
+
+\section{Tables}
+
+\begin{tabular}{c|c|c}
+    1 & 2 & 3 \\
+    3 & 4 & r
+\end{tabular}
+
+\begin{table}[h]
+    \centering
+    \begin{tabular}{|l|l|l|l|}
+        \hline
+        \textbf{Name} & \textbf{ID} & \multicolumn{2}{c|}{\textbf{Home}} \\
+        \hline
+        karim & 1220 & y & t \\
+        \hline
+    \end{tabular}
+    \caption{This is my table}
+    \label{tab:data1}
+\end{table}
+
+\section{Figures}
+
+\begin{figure}[h]
+    \centering
+    \includegraphics[width=300]{img/fig2.eps}
+    \caption{This is our first figure}
+    \label{fig:1}
+\end{figure}
+
+\section{Equations}
+$F = ma$ is given by Newton. 
+$$F = \frac{Gm_1 m_2}{r^2}$$
+where, $G$ is the Universal gravitational constant.
+
+\begin{equation} \label{eq:1}
+    F = \frac{Gm_1 m_2}{r^2}
+\end{equation}
+
+See Eq. \ref{eq:1}.
+
+\begin{align}
+    A_1^2 = B_1^2 + C_1^2
+\end{align}
+
+\begin{align}
+    H_\text{eff} = H_\text{mag} + H_\text{elec}
+\end{align}
+
+$$y = \int_0^{2\pi} (x^2 + 2x) dx$$
+$$y = \sum_{i = 0}^{10} (x_i^2 + 2x_i)$$
+$$x = \frac{\pi}{\sqrt{a^2 + b^2}} $$
+$$y = x^{\frac{1}{2}}$$
+$$ e^{i\theta} = \cos \theta + i \sin \theta$$
+$$y = \sin^{-1} \theta$$
+$$y = \log x$$
+$$\mathbf{v} = \frac{d\mathbf{x}}{dt}$$
+$$a = \vec{b} \cdot \vec{c}$$
+$$\hat{a} = \hat{b} \times \hat{c}$$
+$$-\frac{1}{12} = 1 + 2 + 3 + 4 + \cdots $$
+$$^5\text{C}_2$$
+$$\mu_0 \epsilon_0$$
+$$\langle a \rangle$$
+
+\begin{align*}
+    a & = 5 \times (3 + 4) + 3 & 1\\
+    & = 5 \times 7 + 3 & 1\\
+    & = 35 + 3 & 1\\
+    & = 38 & 1
+\end{align*}
+
+\end{document}
