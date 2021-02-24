@@ -3,6 +3,7 @@
 ## Pages:
 
 - [01. Workflow](/Codes-for-Physicists/01_Workflow)
+- [02. LaTex Lecture Source Code](/Codes-for-Physicists/01_Workflow)
 
 
 
