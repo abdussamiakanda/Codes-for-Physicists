@@ -16,7 +16,7 @@
 \newpage
 
 \section{Introduction}
-Hello, this is my first latex chapter. See Figure \ref{fig:1}.
+Hello, this is my first latex\cite{latex} chapter. See Figure \ref{fig:1}.
 
 \subsection{Classical Mechanics}
 This is the classical mechanics\footnote{For details see Classical Mechanics by Goldstein.} section.
@@ -26,7 +26,7 @@ This is a different font
 \url{https://www.facebook.com}
 
 \subsection{\label{Ch:ToR}Theory of Relativity}
-Here we talk about the \textcolor{red}{theory of relativity}.
+Here we talk about the \textcolor{red}{theory of relativity}\cite{theoryofrelativity}.
 
 \section{Model}
 This is my model chapter. And we already about ToR from \ref{Ch:ToR}.
@@ -43,6 +43,7 @@ This is my model chapter. And we already about ToR from \ref{Ch:ToR}.
 
 {\large This is Big}
 
+M. T. Islam published a paper\cite{islam2018} in 2018 on magnetization reversal.
 
 
 \begin{enumerate}
@@ -68,7 +69,7 @@ $$\Alpha \Beta \Pi \Psi \Phi \Gamma $$
     1 & 2 & 3 \\
     3 & 4 & r
 \end{tabular}
- 
+
 \begin{table}[h]
     \centering
     \begin{tabular}{|l|l|l|l|}
@@ -131,5 +132,12 @@ $$\langle a \rangle$$
     & = 35 + 3 & 1\\
     & = 38 & 1
 \end{align*}
+
+\section*{References}
+We'll use bibliography files. .bib and .bbl 
+
+
+\bibliographystyle{IEEEtran}
+\bibliography{main}
 
 \end{document}
